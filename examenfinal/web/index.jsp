@@ -16,13 +16,20 @@
     <table border="3">
         <tr>
             <th>Rut:</th>
-            <td> <input type="text" name="textrut"placeholder="rut"></td>
+        <form action="Autentificacion">
+            <td> <input type="text" name="rut"placeholder="rut"></td>
         </tr>
         <tr>
             <th>Password:</th>
-            <td><input type="password" name="textcontra"placeholder="password"><br></td>
+            <td><input type="password" name="pass"placeholder="password"><br></td>
         </tr>
         <tr>
+            <td><input type="submit" name="ingresar" value="Ingresar"></td>
+        </tr>
+        </form>
+        
+        <tr>
+            
             <td> <form method="get" action="Crear Cuenta.jsp">
 
                     <input type="submit" value="Crear Cuenta" />
@@ -30,9 +37,7 @@
                 </form>
             </td>
         </tr>
-        <tr>
-            <td><input type="submit" name="Iniciar" value=" Iniciar sesion"></td>
-        </tr>
+        
     </table>
 </body>
 </html>
