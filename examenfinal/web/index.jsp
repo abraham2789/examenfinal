@@ -16,7 +16,7 @@
     <table border="3">
         <tr>
             <th>Rut:</th>
-        <form action="Autentificacion">
+        <form action="Autentificacion" method="post">
             <td> <input type="text" name="rut"placeholder="rut"></td>
         </tr>
         <tr>
@@ -30,7 +30,7 @@
         
         <tr>
             
-            <td> <form method="get" action="Crear Cuenta.jsp">
+            <td> <form method="get" action="crearcuenta.jsp">
 
                     <input type="submit" value="Crear Cuenta" />
 
