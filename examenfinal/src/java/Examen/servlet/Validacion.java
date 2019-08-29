@@ -42,7 +42,7 @@ public class Validacion extends HttpServlet {
         
         Consultas con= new Consultas();
         
-        if(con.Autenticacion(rut, password)){
+        if(con.Autenticacion(rut,password)){
             response.sendRedirect("solicitante.jsp");
         }
         else{

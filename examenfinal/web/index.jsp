@@ -16,7 +16,7 @@
     <table border="3">
         <tr>
             <th>Rut:</th>
-        <form action="Autentificacion" method="post">
+        <form  action="Autentificacion" method="post">
             <td> <input type="text" name="rut"placeholder="rut"></td>
         </tr>
         <tr>

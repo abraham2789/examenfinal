@@ -12,7 +12,7 @@
         <title>Solicitante</title>
     </head>
     <body>
-        <h1>Bienvnido Prestamista</h1>
+        <h1>Bienvenido Prestamista</h1>
 
         <table border="3">
             <tr>
