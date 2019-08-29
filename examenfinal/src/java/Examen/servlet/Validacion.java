@@ -35,18 +35,19 @@ public class Validacion extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException, SQLException {
         response.setContentType("text/html;charset=UTF-8");
+        PrintWriter out= response.getWriter();
         
         String rut=request.getParameter("rut");
-        String pass=request.getParameter("pass");
+        String password=request.getParameter("password");
         
         Consultas con= new Consultas();
         
-        if(con.Autenticacion(rut, pass)){
-            response.sendRedirect("crearcuenta.jsp");
+        if(con.Autenticacion(rut, password)){
+            response.sendRedirect("solicitante.jsp");
         }
         else{
             
-            response.sendRedirect("login.jsp");
+            response.sendRedirect("index.jsp");
         }
         
     }

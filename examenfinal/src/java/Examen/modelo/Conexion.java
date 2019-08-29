@@ -36,5 +36,11 @@ public class Conexion {
         }
     }
     
-    
+    public Connection getConexion()
+    {
+        return (Connection) con;
+    }
+    public static void main(String[] args){
+    Conexion con = new Conexion();
+    }
 }
